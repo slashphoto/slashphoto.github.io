@@ -98,10 +98,7 @@ textarea {
 body{
 }
 
-.logo{
-  height: 56px;
-  width:107px;
-}
+
 
 .wrap_install{
   width:100%;
@@ -115,6 +112,15 @@ body{
 }
 .install{
   text-align: center;
+}
+.install a{
+  display: block;
+  margin:20px 0;
+}
+.logo{
+  height: 56px;
+  width:107px;
+  display: inline-block;
 }
 .install h1{
   margin:40px 0;
