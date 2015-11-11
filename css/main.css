@@ -122,7 +122,7 @@ body{
   width:107px;
   display: inline-block;
 }
-.install h1{
+.install h1,.oauth h1{
   margin:40px 0;
   color: #fff;
 }
@@ -146,8 +146,23 @@ body{
   margin-left:0;
 }
 
-
-
+.oauth{
+  background: url('https://images.unsplash.com/photo-1420136663600-498c31ee1c97?ixlib=rb-0.3.5&q=80&fm=jpg&s=bc80f12a95056d1922e781b598926f0d') no-repeat center center fixed;
+  height: 100%;
+  width:100%;
+  position: absolute;
+  text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.oauth_content{
+  margin:100px 0;
+}
+.oauth h1, .oauth h5{
+  color:#fff;
+}
 
 
 
