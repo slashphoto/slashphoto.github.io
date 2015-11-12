@@ -104,6 +104,7 @@ body{
   width:100%;
   padding: 50px 0;
   display: inline-block;
+  background-color: #333;
   background: url('../img/photography.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
