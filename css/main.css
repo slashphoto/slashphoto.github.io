@@ -131,8 +131,9 @@ body{
   padding:50px 0;
   display: inline-block;
 }
+
 .examples{
-  margin-top: 50px;
+  margin-top: 90px;
 }
 
 .example{
@@ -160,7 +161,7 @@ body{
 .oauth_content{
   margin:100px 0;
 }
-.oauth h1, .oauth h5{
+.oauth h5, .oauth p{
   color:#fff;
 }
 
