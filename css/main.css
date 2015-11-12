@@ -95,22 +95,33 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-body{
-}
 
-
-
+/* Section Wraps */
 .wrap_install{
   width:100%;
   padding: 50px 0;
   display: inline-block;
   background-color: #333;
-  background: url('../img/photography.png') no-repeat center center fixed;
+  background: url('../img/photography.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+.wrap_examples{
+  width:100%;
+  padding:50px 0;
+  display: inline-block;
+}
+.wrap_footer{
+  width:100%;
+  padding:50px 0;
+  display: inline-block;
+}
+
+
+
+
 .install{
   text-align: center;
 }
@@ -126,11 +137,6 @@ body{
 .install h1,.oauth h1{
   margin:40px 0;
   color: #fff;
-}
-.wrap_examples{
-  width:100%;
-  padding:50px 0;
-  display: inline-block;
 }
 
 .examples{
