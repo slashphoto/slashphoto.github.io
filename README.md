@@ -9,6 +9,6 @@ slash.photo is a simple *slash command* that searches the Unsplash API from Slac
 ### API Documentation
 
 - Unsplash: https://unsplash.com/developers
+
 - Slack: https://api.slack.com/
-- 
 
