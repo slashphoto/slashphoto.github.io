@@ -22,17 +22,16 @@
           <div class="container">
             <div class="oauth_content">
               <a href="http://slash.photo"><img class="logo" src="../img/slashphoto.png" alt="Slash Photo Logo"/></a>
-              <h1>:dancer:</h1>
-              <h5>You're connected. Simply use the slash command /photo + a keyword for what you'd like to find.</h5>
+              <h1 id="header">:dancer:</h1>
+              <h5 id="subheader">You're connected. Simply use the slash command /photo + a keyword for what you'd like to find.</h5>
             </div>
           </div>
         </div>
         <script type="text/javascript">
         var queryString = '&'+(document.location+'?').split('?')[1];
           if(queryString.match(/&error=/))
-          alert('yup');
-          else
-          alert('nope');
+            document.getElementById("header").innerHTML="Access Denied";
+            document.getElementById("subheader").innerHTML="Access was denied. If you'd like to use /photo please try again.";
         </script>
         <!-- Google Analytics -->
         <script>
