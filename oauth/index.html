@@ -29,9 +29,11 @@
         </div>
         <script type="text/javascript">
         var queryString = '&'+(document.location+'?').split('?')[1];
-          if(queryString.match(/&error=/))
+          if(queryString.match(/&error=/)){
             document.getElementById("header").innerHTML="Access Denied";
             document.getElementById("subheader").innerHTML="Access was denied. If you'd like to use /photo please try again.";
+          }
+
         </script>
         <!-- Google Analytics -->
         <script>
