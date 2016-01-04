@@ -27,7 +27,13 @@
             </div>
           </div>
         </div>
-
+        <script type="text/javascript">
+        var queryString = '&'+(document.location+'?').split('?')[1];
+          if(queryString.match(/&error=/))
+          alert('yup');
+          else
+          alert('nope');
+        </script>
         <!-- Google Analytics -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
