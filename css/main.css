@@ -97,7 +97,7 @@ textarea {
 
 
 /* Section Wraps */
-.wrap_install{
+.wrap_install,.wrap_support{
   width:100%;
   padding: 50px 0;
   display: inline-block;
@@ -108,7 +108,10 @@ textarea {
   -o-background-size: cover;
   background-size: cover;
 }
-.wrap_examples{
+.wrap_support{
+  background: url('../img/support.jpg') no-repeat center
+}
+.wrap_examples,.wrap{
   width:100%;
   padding:50px 0;
   display: inline-block;
